@@ -89,3 +89,17 @@ input{
     color: purple;
     font-weight: bold;
 }
+
+
+
+@media (min-width: 330px) and (max-width:  1268.98px){
+    .log {
+        width: 70%;
+    }
+    .g{
+        width: 100%;
+    }
+    .last{
+        width: 100%;
+    }
+}
