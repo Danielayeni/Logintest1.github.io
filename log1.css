@@ -84,3 +84,26 @@ select{
     color: purple;
     font-weight: bold;
 }
+
+
+
+@media (min-width: 330px) and (max-width: 548.98px){
+    .log img{
+        display: block;
+        margin: auto;
+        height: 50px;
+        width: 50px;
+    }
+    h1, p{
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        
+    }
+    .p1, .p2{
+        width: 60%;
+    }
+}
