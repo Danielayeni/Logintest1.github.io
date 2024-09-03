@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="log1.css">
+    <link rel="shortcut icon" href="temp_segment_66d70e35db2c2.png" type="image/x-icon">
+</head>
+<body>
+    <div class="log">
+        <img src="logo.jpg" alt="Logo">
+        <h1>Sign up</h1>
+        <p>Enter your details below to create your account and get started.</p>
+       <form action="">
+        <span class="flex">
+            <span class="p1">Full Name <br><input type="text" placeholder="enter..." name="fname" id="fname" required></span> 
+            <span class="p2">Email <br> <input type="email" placeholder="example@email.com"name="email" id="email" required> <br></span>
+         </span>
+        <span class="flex">
+         <span class="p1">Date of Birth <br> <input type="date" name="date" required> </span>
+         <span class="p2">Phone Number <br> <input type="tel" placeholder="+234 ..." required> <br></span>
+        </span>
+         <span class="flex">
+             <span class="p1">
+                <label for="nationality">Nationality</label> <br>
+                <select name="nationality" id="nationality" required>
+                <option value="">Select Nationality</option>
+                <option value="Algeria">Algeria</option>
+                <option value="Canada">Canada</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Other">Other</option>
+                </select>
+             </span>
+             <span class="p2">
+                 <label for="id_type" >ID Type</label> <br>
+                 <select name="id_type" id="id_type" required>
+                 <option value="">Select ID Type</option>
+                 <option value="Passport">Passport</option>
+                 <option value="Driver's License">Driver's License</option>
+                 <option value="State ID">State ID</option>
+                 <option value="Other">Other</option>
+                 </select>
+             </span>
+         </span>
+         <br>
+         <span class="flex">
+             <span class="p1">
+                 Password <br><input type="password" name="pass" placeholder="enter..." id="pass" required>
+             </span>
+             <span class="p2">
+                 Confirm Password <br><input type="password" name="passw" placeholder="enter..." id="passw" required> <br>
+             </span>
+         </span>
+         <span class="x">
+             <button type="reset" id="Cancel-btn" class="part">Cancel</button>
+             <input type="submit" value="Confirm" id="confirm" class="part">
+         </span>
+       </form>
+        <p class="last">Already have an account? <a href="log2.html" class="last2">Login</a></p>
+    </div>
+</body>
+</html>
